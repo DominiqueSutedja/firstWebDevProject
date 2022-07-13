@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact Me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body>
+    <h1> Contact Me</h1>
+
+    <form method="post" action="https://backend-server.dominiquesutedj.repl.co/">
+      <p class="form-prompt">Your name</p>
+      <label for="fname">First Name:</label><br>
+      <input type="text" is="fname" name="fname" value="John"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" is="lname" name="lname" value="DEEZ"><br>
+
+      <br>
+    
+      <p class="form-prompt">Your email</p>
+      <input type="text" is="email" name="email" value="JohnD@gmail.com"><br>
+      
+    <br>
+
+      <p class="form-prompt">How old are you?</p>
+      <input type="radio" id="child" name="age" value="child">
+      <label for="child">17 years old or younger</label><br>
+      <input type="radio" id="adult" name="age" value="adult">
+      <label for="adult">18 - 64 years old</label><br>
+      <input type="radio" id="senior" name="age" value="senior">
+      <label for="senior">65 or above</label><br>
+    <br>
+      <p class="form-prompt">dietary preferences</p>
+      <input type="radio" id=nopref name="diet" value="nopref"
+      <label for="no pref">no preferences</label><br>
+      <input type="radio" id="vegan" name="diet" value="vegan"
+      <label for="vegan">vegan</label><br>
+
+    <br>
+      <p class="form-prompt">Choose you interests</p>
+      <input type="checkbox" id="interest1" name="interest1" value="anime">
+      <label for="interest1">Anime</label><br>
+      <input type="checkbox" id="interest2" name="interest2" value="videogames">
+      <label for="interest1">videogames</label><br>
+      <input type="checkbox" id="interest3" name="interest3" value="sports">
+      <label for="interest3">sports</label><br>
+
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+  

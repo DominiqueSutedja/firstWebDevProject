@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+  }  
+table: th, td{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr:nth-child(even) {
+    background-color: #fa9e57;
+  }
+  tr:nth-child(odd){
+    background-color: #f24b4b;
+  }
+h1, h2,h3,h4{
+  background-color:#abb6ff;
+  color: 000000
+  font-family:verdana;
+  text-align: center;
+}
+#specialHeader{
+  background-color:#7eed6d;
+  color:#8b6ded;
+  font-family: 'Dancing Script', cursive;
+  text-align:center;
+}
+#specialHeader2{
+  background-color: #33D4FF;
+  color:#FA0B0B;
+  font-family: 'Lobster', cursive;
+  text-align:center;
+}
+
+#specialHeader3{
+  background-color:1DFA0B;
+  color:FA830B;
+  font-family:unset;
+  text-align:center;
+}
+div.specialQuote{
+  background-color:lightgray;
+  width:60%;
+  height:150px;
+  margin:auto;
+  padding:15px;
+  overflow:scroll;
+  background-color:#abb6ff
+}
+img.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+span.beginningCharacter{
+  float:left;
+  width:0.7em;
+  font-size:400%;
+  font-family:algerian, courier;
+  line-height:80%;
+}
+
+img.floatLeft{
+  float:left;
+  padding: 15px;
+}
+img.floatRight{
+  float:right;
+  padding: 15px
+}
+
+div.article {
+  height: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+form{
+  background-color: lightblue;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  border-radius:10px;
+}
+
+p.form-prompt{
+  font-size:24px;
+  margin-top:0;
+  margin-bottom: 5px;
+  font-family:verdana;
+}
